@@ -2,7 +2,7 @@ let letter;
 let words = ['PLANINA', 'KABINA', 'DRVO', 'MAGARAC', 'KRUŠKA', 'JABUKA',
 'PATIKA', 'TELEFON', 'BATERIJA', 'EKRAN', 'LEPTIR', 'PEŠKIR', 'RAMPA',
 'SLUŠALICE', 'SUNĐER', 'KUPUS', 'SAT', 'PETARDA', 'TRUBA', 'ŠRAFCIGER',
-'LAMPA', 'PEĆ', 'KAMIN', 'KARMIN', 'KOALA', 'KRAVA', 'PRASE', 'ČEKIĆ']
+'LAMPA', 'KAMIN', 'KARMIN', 'KOALA', 'KRAVA', 'PRASE', 'ČEKIĆ', 'PEĆ']
 
 // --------- Letters ----------------
 
@@ -96,6 +96,7 @@ const t = () => {
 }
 const ć = () => {
     letter = "Ć";
+    check()
 }
 const u = () => {
     letter = "U";
