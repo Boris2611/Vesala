@@ -66,6 +66,7 @@ body {
     left: 250px;
     top: 70px;
     visibility: hidden;
+    display: inline-block;
 }
 
 
@@ -81,6 +82,7 @@ body {
     top: 250px;
     left: 250px;
     visibility: hidden;
+    display: inline-block;
 }
 
 #line2 {
@@ -88,6 +90,7 @@ body {
     top: 250px;
     left: 300px;
     visibility: hidden;
+    display: inline-block;
 }
 
 #line3 {
@@ -95,6 +98,7 @@ body {
     top: 250px;
     left: 210px;
     visibility: hidden;
+    display: inline-block;
 }
 
 #line4 {
@@ -102,6 +106,7 @@ body {
     top: 370px;
     left: 300px;
     visibility: hidden;
+    display: inline-block;
 }
 
 #line5 {
@@ -109,6 +114,7 @@ body {
     top: 370px;
     left: 210px;
     visibility: hidden;
+    display: inline-block;
 }
 
 #lines1, #lines2, #lines3, #lines4, #lines5, #lines6, #lines7, #lines8,
@@ -127,13 +133,13 @@ body {
 
    .letter {
        padding: 5px;
-       width: 20px;
-       height: 20px;
+       width: 15px;
+       height: 15px;
        font-size: 15px;
    }
 
    .letters {
-        width:320px;
+        width:290px;
         padding: 10px;
         top: -50px;
    }
