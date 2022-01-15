@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body {
+    background-image: url("bg.jpg");
+    color: white;
+    font-size: 30px;
+    font-family: 'Architects Daughter', cursive;
+    margin: 20px;
+    margin-top: 0px;
+
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.letter {
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    margin: 10px;
+    transition: 0.2s;
+    display: inline-block;
+    box-shadow: 0px 0px 3px 3px black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.letter:hover {
+    background-color: rgba(255, 255, 255, 0.274);
+}
+
+.lines {
+    font-size: 40px;
+    position: relative;
+    top: 460px;
+    left: 250px;
+    width: 600px;
+    display: flex;
+}
+
+.letters {
+    width: 460px;
+    float: right;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.363);
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px black;
+    position: relative;
+    top: -100px;
+}
+
+.picture {
+    position: absolute;
+    top: 42px;
+}
+
+#head {
+    position: absolute;
+    width: 150px;
+    left: 250px;
+    top: 70px;
+    visibility: hidden;
+}
+
+
+.line {
+   filter: invert(1);
+   width: 150px;
+   position: absolute;
+   
+}
+
+#line1 {
+    rotate: 90deg;
+    top: 250px;
+    left: 250px;
+    visibility: hidden;
+}
+
+#line2 {
+    rotate: 45deg;
+    top: 250px;
+    left: 300px;
+    visibility: hidden;
+}
+
+#line3 {
+    rotate: 125deg;
+    top: 250px;
+    left: 210px;
+    visibility: hidden;
+}
+
+#line4 {
+    rotate: 45deg;
+    top: 370px;
+    left: 300px;
+    visibility: hidden;
+}
+
+#line5 {
+    rotate: 125deg;
+    top: 370px;
+    left: 210px;
+    visibility: hidden;
+}
+
+#lines1, #lines2, #lines3, #lines4, #lines5, #lines6, #lines7, #lines8,
+#lines9, #lines10 {
+    margin-left: 10px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+   .picture {
+       position: relative;
+   }
+
+   .letter {
+       padding: 5px;
+       width: 20px;
+       height: 20px;
+       font-size: 15px;
+   }
+
+   .letters {
+        width:320px;
+        padding: 10px;
+        top: -50px;
+   }
+
+   .center {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+
+
+   #stick {
+       width: 250px;
+   }
+
+   #head {
+       width: 100px;
+       left: 150px;
+       top: 40px;
+   }
+
+   .lines {
+       font-size: 25px;
+       width: 250px;
+       left: 120px;
+       position: relative;
+       top: -20px;
+        margin-bottom: 50px;
+   }
+
+
+   .line {
+       width: 80px;
+   }
+
+   #line1 {
+    rotate: 90deg;
+    top: 150px;
+    left: 150px;
+    }
+
+#line2 {
+    rotate: 45deg;
+    top: 160px;
+    left: 180px;
+}
+
+#line3 {
+    rotate: 125deg;
+    top: 160px;
+    left: 125px;
+}
+#line4 {
+    rotate: 45deg;
+    top: 210px;
+    left: 180px;
+}
+
+#line5 {
+    rotate: 125deg;
+    top: 210px;
+    left: 130px;
+}
+
+
+  }
