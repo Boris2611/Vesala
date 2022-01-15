@@ -206,6 +206,7 @@ function check() {
 
     if (right == choosen.length) {
         alert("Svaka Čast !")
+        setTimeout(location.reload(), 1000)
     }
 }
 // ---------------------------------------
